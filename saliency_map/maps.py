@@ -8,7 +8,7 @@ import math
 import itertools
 import cv2 as cv
 import numpy as np
-from utils import Util
+from saliency_map.utils import Util
 
 
 class GaussianPyramid:
