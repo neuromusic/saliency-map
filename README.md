@@ -2,11 +2,25 @@ saliency-map (Python)
 ============
 Saliency Map. Laurent Itti, Christof Koch (2000)
 
+## Install
+
+Clone the repository, then
+
+``` bash
+python setup.py install
+```
+
+or
+
+``` bash
+pip install ./
+```
+
 ## How to Use
 
-```
+``` Python
 from saliency_map import SaliencyMap
-from utils import OpencvIo
+from saliency_map.utils import OpencvIo
 
 oi = OpencvIo()
 src = oi.imread(IMAGE_PATH)
